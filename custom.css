@@ -5,6 +5,8 @@
       height, and adding scrollbar if exceeded
         - 350px seems to be the sweet spot - maybe 90% of 
           posts don't hit the height cap
+    * This alignment intentionally does not apply to
+      expanded posts.
 */
 .status .reply-indicator__content, .status .status__content {
     margin-left: calc(58px - 0.5em);
@@ -12,6 +14,14 @@
     padding: 0 0.5em;
     max-height: 350px;
     overflow-y: auto;
+}
+
+/*
+    * Narrow the media icon on status cards, so that the
+      card title aligns with post content
+*/
+.status-card.compact .status-card__image {
+    flex: 0 0 calc(58px - 0.75em);
 }
 
 /*
@@ -40,12 +50,4 @@
 }
 .account__header__tabs .account__avatar {
     border-radius: 4px;
-}
-
-/*
-    * Narrow the media icon on status cards, so that the
-      card title aligns with post content
-*/
-.status-card.compact .status-card__image {
-    flex: 0 0 calc(58px - 0.75em);
 }
