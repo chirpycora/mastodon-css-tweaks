@@ -25,4 +25,4 @@ Open your site settings (under `https://{{ your instance }}/admin/settings/appea
 
 ## Examples
 
-These tweaks are currently running on @chirpycora's personal Mastodon instance, https://mstr.cloud. Note that it uses a custom font, which (because of CSRF restrictions) requires additional work to implement, not yet documented here.
+These tweaks are currently running on [@chirpycora](https://github.com/chirpycora)'s personal Mastodon instance, https://mstr.cloud. Note that it uses a custom font, which (because of CSRF restrictions) requires additional work to implement, not yet documented here.
