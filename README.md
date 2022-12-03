@@ -21,3 +21,8 @@ Mastodon offers server administrators the ability to add custom CSS, and that pr
 ## Installation
 
 Open your site settings (under `https://{{ your instance }}/admin/settings/appearance`), paste the contents in, and save. 
+
+
+## Examples
+
+These tweaks are currently running on @chirpycora's personal Mastodon instance, https://mstr.cloud. Note that it uses a custom font, which (because of CSRF restrictions) requires additional work to implement, not yet documented here.
